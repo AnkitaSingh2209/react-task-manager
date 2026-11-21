@@ -1,0 +1,120 @@
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 35px;
+  text-align: center;
+  background: #ffffff;
+  color: #222;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.app h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+    color: #25234a;
+}
+
+.app p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.app input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.app button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #635bdb;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.app button:hover {
+  background: #4941b5;
+}
+
+.app ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.app li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  background: #f5f5fa;
+  border: 1px solid #e5e3f5;
+  border-radius: 10px;
+  text-align: left;
+  transition: 0.2s;
+}
+.app li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.app li span {
+  flex: 1;
+  color: #777;
+}
+
+.app li input[type="checkbox"] {
+  accent-color: #635bdb;
+}
+
+.app li button {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 20px 12px;
+    padding: 20px;
+  }
+
+  .app h1 {
+    font-size: 28px;
+  }
+
+  .app li {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .app {
+    margin: 15px 10px;
+    padding: 18px;
+  }
+
+  .app h1 {
+    font-size: 26px;
+  }
+
+  .app input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .app li button {
+    padding: 8px 10px;
+  }
+}
