@@ -1,16 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Task Manager
 
-Currently, two official plugins are available:
+A responsive task management application built with React and JavaScript. It helps users organize daily tasks, track progress, and manage completed and active tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[Open Task Manager](https://react-task-manager-mt5xkci9p-ankitasingh2209.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks by All, Active, and Completed
+- Display total, active, and completed task counts
+- Save tasks using browser Local Storage
+- Responsive design for mobile and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git and GitHub
+- Vercel
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AnkitaSingh2209/react-task-manager.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd react-task-manager
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## What I Learned
+
+- Managing state with React useState
+- Using useEffect for Local Storage
+- Working with JavaScript array methods
+- Conditional rendering in React
+- Implementing CRUD operations
+- Building responsive layouts with CSS
+- Using Git and GitHub for version control
+- Deploying a React application with Vercel
+
+## Author
+
+Ankita Singh
+
+[GitHub Profile](https://github.com/AnkitaSingh2209)
